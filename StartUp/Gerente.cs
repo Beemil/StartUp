@@ -22,10 +22,12 @@ namespace StartUp
         {
             Console.WriteLine();
             Console.WriteLine("Información del Gerente:");
-
-            Console.WriteLine($"Gerente: {Gerente}");
+            Console.WriteLine($"Nombre: {Nombre}");
+            Console.WriteLine($"ID: {ID}");
+            Console.WriteLine($"Salario Base: {SalarioBase}");
+            Console.WriteLine($"Cargo: Gerente");
             Console.WriteLine($"Salario Anual: {CalcularSalarioAnual()}");
-            
+            Console.WriteLine();
         }
     }
 }
